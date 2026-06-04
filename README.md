@@ -2,6 +2,7 @@ Traffic Intersection Intelligence System
 Real-time traffic monitoring system for analyzing vehicles, congestion, and intersection activity.
 
 Features
+
 Vehicle detection and tracking
 Traffic density analysis
 Congestion monitoring
