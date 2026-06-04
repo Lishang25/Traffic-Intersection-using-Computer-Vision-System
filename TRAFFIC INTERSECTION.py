@@ -3,8 +3,7 @@
 ║         AI TRAFFIC INTERSECTION INTELLIGENCE SYSTEM                            ║
 ║         Production-Grade Roundabout & Intersection Analytics                   ║
 ╠══════════════════════════════════════════════════════════════════════════════════╣
-║  Dev/Creator : tubakhxn                                                        ║
-║  GitHub      : https://github.com/tubakhxn                                     ║
+║  Dev/Creator : Lishang Gajendra                                                  ║                                    
 ╠══════════════════════════════════════════════════════════════════════════════════╣
 ║  FEATURES                                                                      ║
 ║  • YOLOv8m vehicle detection (car/truck/bus/motorcycle)                        ║
@@ -710,7 +709,6 @@ if __name__ == "__main__":
     print(f"""
 ╔══════════════════════════════════════════════════════════╗
 ║      AI TRAFFIC INTERSECTION INTELLIGENCE SYSTEM        ║
-║            tubakhxn  |  github.com/tubakhxn             ║
 ╚══════════════════════════════════════════════════════════╝
   Source  : {src}
   Device  : {GPU_NAME}
