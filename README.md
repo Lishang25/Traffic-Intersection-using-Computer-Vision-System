@@ -1,6 +1,6 @@
 ## Traffic Intersection Intelligence System
 
-Real-time traffic monitoring system for analyzing vehicles, congestion, and intersection activity.
+An Intelligent Transportation System (ITS) for dynamic traffic flow analysis, vehicle classification, and intersection throughput optimization
 
 ## Features
 
