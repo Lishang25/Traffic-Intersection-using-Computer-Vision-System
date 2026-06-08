@@ -20,3 +20,6 @@ Unified Streaming Telemetry Dashboard: A high-throughput, low-latency UI archite
 ## Use Cases
 
 Intelligent Infrastructure Development: Utilizing historical spatial-temporal data to identify high-risk zones and design safer, high-capacity road networks.
+
+Adaptive Traffic Control Systems (ATCS): Providing the feedback loop necessary for AI-driven traffic lights that adjust timing based on live approach volumes.
+
