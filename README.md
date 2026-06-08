@@ -23,3 +23,7 @@ Intelligent Infrastructure Development: Utilizing historical spatial-temporal da
 
 Adaptive Traffic Control Systems (ATCS): Providing the feedback loop necessary for AI-driven traffic lights that adjust timing based on live approach volumes.
 
+Multimodal Mobility Profiling: Analyzing the interaction between different vehicle classes to improve the coexistence of freight, private transport, and micro-mobility lanes.
+
+
+
