@@ -25,5 +25,6 @@ Adaptive Traffic Control Systems (ATCS): Providing the feedback loop necessary f
 
 Multimodal Mobility Profiling: Analyzing the interaction between different vehicle classes to improve the coexistence of freight, private transport, and micro-mobility lanes.
 
+Environmental Impact Mitigation: Correlating traffic idling patterns with localized air quality data to develop strategies for reducing carbon emissions at hotspots.
 
 
