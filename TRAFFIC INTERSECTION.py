@@ -27,18 +27,18 @@
 import sys, subprocess, importlib, os
 
 _PKGS = {
-    "cv2":         "opencv-python",
-    "numpy":       "numpy",
-    "torch":       "torch",
-    "torchvision": "torchvision",
-    "ultralytics": "ultralytics",
-    "scipy":       "scipy",
-    "PIL":         "pillow",
+    "cv2":"opencv-python",
+    "numpy":"numpy",
+    "torch":"torch",
+    "torchvision":"torchvision",
+    "ultralytics":"ultralytics",
+    "scipy":"scipy",
+    "PIL":"pillow",
 }
 
 _missing = []
 for mod, pip in _PKGS.items():
-    try: importlib.import_module(mod)
+    try:importlib.import_module(mod)
     except ImportError: _missing.append(pip)
 
 if _missing:
@@ -59,11 +59,11 @@ from datetime import datetime
 from ultralytics import YOLO
 
 # ─── DEVICE ───────────────────────────────────────────────────────────────────
-DEVICE   = "cuda" if torch.cuda.is_available() else "cpu"
-USE_FP16 = (DEVICE == "cuda")
-GPU_NAME = torch.cuda.get_device_name(0) if DEVICE == "cuda" else "CPU"
-print(f"\n  🖥️   Device : {GPU_NAME}")
-print(f"  ⚡  FP16   : {USE_FP16}\n")
+DEVICE= "cuda" if torch.cuda.is_available() else "cpu"
+USE_FP16=(DEVICE=="cuda")
+GPU_NAME=torch.cuda.get_device_name(0) if DEVICE=="cuda" else "CPU"
+print(f"\n  🖥️  Device :{GPU_NAME}")
+print(f" ⚡ FP16:{USE_FP16}\n")
 
 # ─── CONFIG ───────────────────────────────────────────────────────────────────
 OUTPUT_FILE      = "output_intersection_ai.mp4"
@@ -79,10 +79,10 @@ FONT             = cv2.FONT_HERSHEY_SIMPLEX
 # Each zone = (x_frac_start, y_frac_start, x_frac_end, y_frac_end, name, color_BGRA)
 # Colors match ref: North=blue, East=red/pink, South=green, West=gold
 ZONE_DEFS = [
-    ("NORTH", 0.25, 0.00, 0.75, 0.35,  (255, 140,  50, 80)),   # blue-ish
-    ("EAST",  0.65, 0.25, 1.00, 0.75,  ( 80,  60, 220, 80)),   # red/pink
-    ("SOUTH", 0.25, 0.65, 0.75, 1.00,  ( 60, 180,  60, 80)),   # green
-    ("WEST",  0.00, 0.25, 0.35, 0.75,  ( 30, 180, 220, 80)),   # gold/orange
+    ("NORTH",0.25,0.00,0.75,0.35,(255,140,50,80)),   # blue-ish
+    ("EAST",0.65,0.25,1.00,0.75,(80,60,220,80)),   # red/pink
+    ("SOUTH",0.25,0.65,0.75,1.00,(60,180,60,80)),   # green
+    ("WEST",0.00,0.25,0.35,0.75,(30,180,220,80)),   # gold/orange
 ]
 
 # HUD color palette
