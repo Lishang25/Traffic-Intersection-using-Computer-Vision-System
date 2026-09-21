@@ -7,9 +7,9 @@ Multi-Object Tracking (MOT) & Classification Pipeline: Real-time inference model
 
 Spatial-Temporal Density Estimation: Edge-computed algorithms that transform raw pixel data into exact vehicle concentration metrics per unit area
 
-Gridlock & Saturation Monitored Thresholds: Automated trigger systems based on velocity degradation and occupancy thresholds to flag immediate congestion events.
+Gridlock & Saturation Monitored Thresholds: Automated trigger systems based on velocity degradation and occupancy thresholds to flag immediate congestion events
 
-Multi-Zone Lane Activity Disambiguation: Virtual logic gates (tripwires) and region-of-interest (ROI) masking to analyze lane-specific throughput and violations.
+Multi-Zone Lane Activity Disambiguation: Virtual logic gates (tripwires) and region-of-interest (ROI) masking to analyze lane-specific throughput and violations
 
 Geospatial Telemetry Visualization Engine: Rendering complex traffic vectors, trajectory paths, and volumetric matrices onto an interactive GIS/map interface.
 
