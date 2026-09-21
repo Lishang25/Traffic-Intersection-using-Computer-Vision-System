@@ -1,4 +1,4 @@
-## Traffic Intersection Intelligence System
+## Traffic Intersection Intelligence Syst
 
 An Intelligent Transportation System (ITS) for dynamic traffic flow analysis, vehicle classification, and intersection throughput optimization.
 
