@@ -3,7 +3,7 @@
 An Intelligent Transportation System (ITS) for dynamic traffic flow analysis, vehicle classification, and intersection throughput optimization
 
 ## Features
-Multi-Object Tracking (MOT) & Classification Pipeline: Real-time inference models that detect bounding boxes and maintain unique IDs for vehicles across fram
+Multi-Object Tracking (MOT) & Classification Pipeline: Real-time inference models that detect bounding boxes and maintain unique IDs for vehicles across frame
 
 Spatial-Temporal Density Estimation: Edge-computed algorithms that transform raw pixel data into exact vehicle concentration metrics per unit area
 
