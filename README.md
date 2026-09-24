@@ -5,7 +5,7 @@ An Intelligent Transportation System (ITS) for dynamic traffic flow analysis, ve
 ## Features
 Multi-Object Tracking (MOT) & Classification Pipeline: Real-time inference models that detect bounding boxes and maintain unique IDs for vehicles across frames
 
-Spatial-Temporal Density Estimation: Edge-computed algorithms that transform raw pixel data into exact vehicle concentration metrics per unit are
+Spatial-Temporal Density Estimation: Edge-computed algorithms that transform raw pixel data into exact vehicle concentration metrics per unit area
 
 Gridlock & Saturation Monitored Thresholds: Automated trigger systems based on velocity degradation and occupancy thresholds to flag immediate congestion events
 
