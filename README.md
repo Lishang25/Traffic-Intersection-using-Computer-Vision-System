@@ -15,7 +15,7 @@ Geospatial Telemetry Visualization Engine: Rendering complex traffic vectors, tr
 
 Intersection Node Throughput Optimization: Algorithmic analytics tracking phase-by-phase approach volumes, spillback, and structural delay at critical nodes
 
-Unified Streaming Telemetry Dashboard: A high-throughput, low-latency UI architecture integrating web sockets or MQTT streams for real-time data visualization and event-driven alerting.
+Unified Streaming Telemetry Dashboard: A high-throughput, low-latency UI architecture integrating web sockets or MQTT streams for real-time data visualization and event driven alerting
 
 ## Use Cases
 
